@@ -18,6 +18,7 @@ public class Person {
 	}
 
 	private void updatePromille() {
+		// Formel: https://de.wikipedia.org/wiki/Blutalkoholkonzentration#Berechnung_der_BAK
 		promille = 0;
 	}
 
