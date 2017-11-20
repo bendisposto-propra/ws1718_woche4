@@ -22,7 +22,7 @@ public class AlkomatController {
 
 
 	@PostMapping(path = "/")
-	public String getAllUsers(@ModelAttribute Person person, Model model) {
+	public String processForm(@ModelAttribute Person person, Model model) {
 		model.addAttribute("person", person);
 		return "rechner"; // show the filled Template rechner.html
 	}
