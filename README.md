@@ -11,7 +11,7 @@ Verbessern Sie diese Version dann, folgende Features könnten Sie zum Beispiel e
 
 * Berechnung der Alkoholmenge mit Hilfe von Menge und Alkoholgehalt
 * Einbinden einer Datenbank mit alkoholischen Getränken
-* Anzeige des Verlaufs der Blutalkoholkonzentratin (graphisch oder als Tabelle)
+* Anzeige des Verlaufs der Blutalkoholkonzentration (graphisch oder als Tabelle)
 
 Es gibt eine ganze Reihe von solchen Anwendungen im Netz, an denen Sie sich orienteren können.
 
