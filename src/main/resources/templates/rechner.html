@@ -15,12 +15,12 @@
       achten Sie darauf dass Sie nur wohlgeformtes HTML schreiben.
     </p>
 
-		<p th:text="${person.gewicht}"></p>
+		<p th:text="${person?.gewicht}"></p>
 
 		<form method="post">
 		  <div class="form-group">
 		    <label for="gewichtInput">Gewicht</label>
-		    <input th:value="${person.gewicht}" type="number" required="true" name="gewicht" class="form-control" id="gewichtInput" placeholder="Gewicht eingeben"></input>
+		    <input th:value="${person?.gewicht}" type="number" required="true" name="gewicht" class="form-control" id="gewichtInput" placeholder="Gewicht eingeben"></input>
 		  </div>
 		  <button type="submit" class="btn btn-primary">Submit</button>
 		</form>

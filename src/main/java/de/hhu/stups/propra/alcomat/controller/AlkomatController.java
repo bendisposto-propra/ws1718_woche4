@@ -16,7 +16,7 @@ public class AlkomatController {
 
 	@GetMapping(path = "/")
 	public String showForm(Model model) {
-		model.addAttribute("person", new Person());
+		model.addAttribute("person", null);
 		return "rechner"; // show the empty Template rechner.html
 	}
 
